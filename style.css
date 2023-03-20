@@ -1,9 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Sono&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000000;
     color: #ff8d8d;
@@ -16,8 +18,88 @@ strong{
     color:  rgb(76, 0, 255);
 }
 .orgnize{
-    margin: 8%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.orgnize__section{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titular{
+    font-size: 40px;
+    font-family: 'Sono', sans-serif;
+
+}
+.comiaFoda-se{
+    border-radius: 10%;
+    width: 300px;
+}
+.solteira{
+    font-family: 'Montserrat', sans-seri;
+    width: 190px;
+    display: flex;
+    font-size: 25px;
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(0, 131, 175);
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.solteira2{
+    font-family: 'Montserrat', sans-seri;
+    width: 230px;
+    display: flex;
+    font-size: 25px;
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(0, 131, 175);
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.solteira:hover{
+    background-color: rgb(0, 191, 255);
+}
+.solteira2:hover{
+    background-color: rgb(0, 191, 255);
+}
+
+
+.final{
+    font-family: 'Montserrat', sans-seri;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(30, 255, 0);
+    color:blueviolet;
+    border-radius: 10px;
+}
+
+.cabecalho{
+    
+    /* margin: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.cabecalho__Men{
+    padding: 1% 0 1% 10%;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    gap: 60px;
+}
+.cabecalho__Men__link{
+    font-family: 'Montserrat', sans-seri;
+    font-size: 25px;
+    color:rgb(185, 185, 185);
+    
+}
+.you{
+    border-radius: 2px;
+    width: 34px;
 }
