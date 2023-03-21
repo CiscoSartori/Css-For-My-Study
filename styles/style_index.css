@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Sono&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ff8d8d;
+}
+.you{
+    width: 50px;
+}
+.herder{
+    display: flex;
+    gap: 1200px;
+    padding: 1% 0 1% 4%;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+}
+.cabecalho__Men{
+    display: flex;
+    gap: 60px;
+}
+.cabecalho__Men__link{
+    font-family: 'Montserrat', sans-seri;
+    font-size: 25px;
+    color:rgb(185, 185, 185);
+    text-decoration: none;
+}
+.cabecalho__Men__link:hover{
+    color: rgb(97, 97, 97);
+}

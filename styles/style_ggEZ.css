@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Sono&display=swap');
+ 
+ :root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #ff0000;
+    --fonte-primaria: 'Montserrat', sans-seri;
+ }
+
+ body{
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+ }

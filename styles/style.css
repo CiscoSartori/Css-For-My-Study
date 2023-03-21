@@ -50,6 +50,7 @@ strong{
     padding: 10px 0;
     border-radius: 10px;
     text-align: center;
+    text-decoration: none;
 }
 .solteira2{
     font-family: 'Montserrat', sans-seri;
@@ -61,6 +62,7 @@ strong{
     padding: 10px 0;
     border-radius: 10px;
     text-align: center;
+    text-decoration: none;
 }
 .solteira:hover{
     background-color: rgb(0, 191, 255);
@@ -97,7 +99,10 @@ strong{
     font-family: 'Montserrat', sans-seri;
     font-size: 25px;
     color:rgb(185, 185, 185);
-    
+    text-decoration: none;
+}
+.cabecalho__Men__link:hover{
+    color: rgb(128, 128, 128);
 }
 .you{
     border-radius: 2px;
